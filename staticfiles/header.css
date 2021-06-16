@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: honeydew;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
