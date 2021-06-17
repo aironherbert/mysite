@@ -1,0 +1,29 @@
+.img {
+    max-width: 40%;
+    min-width: 200px;
+    border-radius: 20%;
+    height: auto;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.inicio-conteudo {
+    min-width: 300px;
+    flex: 1;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    font-size: 25px;
+}
