@@ -7,6 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .inicio {
@@ -21,9 +22,21 @@
 }
 
 .center {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    margin-bottom: 20px;
 }
 
 li {
     font-size: 25px;
+}
+
+.exp {
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
