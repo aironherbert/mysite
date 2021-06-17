@@ -1,16 +1,19 @@
 {% load static %}
-<div class="container inicio">
-        <img src="{% static 'imgs/foto.jpg' %}" class='img' alt="imagem de perfil"></img>
-        <div class="inicio-conteudo">
-            <ul>
-                <li> Graduado em <strong>Engenharia de Controle e Automação</strong> pelo Instituto Federal de Goiás.</li>
-                <li> Mestre em <strong>Tecnologia de Processos Sustentáveis</strong>.</li>
-                <li> Desenvolvedor de software <strong>há mais de 4 anos</strong>.</li>
-                <li> <strong>Quatro softwares registrados</strong> no INPI na linguagem <strong>Matlab</strong>.</li>
-                <li> Desenvolvedor web <strong>Full Stack</strong>.</li>
-                <li> Aberto para oportunidades em todo o <strong>Brasil</strong>.</li>
-                <li> Fluente em <strong>inglês</strong>.</li>
-            </ul>
+<div class="container" id='inicio'>
+        <h2 class="title center">Resumo</h2>
+        <div class="inicio">
+            <img src="{% static 'imgs/foto.jpg' %}" class='img' alt="imagem de perfil"></img>
+            <div class="inicio-conteudo">
+                <ul>
+                    <li> Graduado em <strong>Engenharia de Controle e Automação</strong> pelo Instituto Federal de Goiás.</li>
+                    <li> Mestre em <strong>Tecnologia de Processos Sustentáveis</strong>.</li>
+                    <li> Desenvolvedor de software <strong>há mais de 4 anos</strong>.</li>
+                    <li> <strong>Quatro softwares registrados</strong> no INPI na linguagem <strong>Matlab</strong>.</li>
+                    <li> Desenvolvedor web <strong>Full Stack</strong>.</li>
+                    <li> Aberto para oportunidades em todo o <strong>Brasil</strong>.</li>
+                    <li> Fluente em <strong>inglês</strong>.</li>
+                </ul>
+            </div>
         </div>
 </div>
 <hr>
@@ -22,4 +25,12 @@
         <h6>{{ jobs.1.date }}</h6>
         <div>{{ jobs.1.description }}</div>
     </div>
+</div>
+<hr>
+<div class="container" id='projects'>
+    <h2 class='title center'>Projetos</h2>
+</div>
+<hr>
+<div class="container" id='contact'>
+    <h2 class='title center'>Quer me contratar?</h2>
 </div>
