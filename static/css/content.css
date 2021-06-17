@@ -8,6 +8,7 @@
     margin-right: auto;
     object-fit: cover;
     margin-bottom: 20px;
+    align-self: flex-start;
 }
 
 .inicio {
