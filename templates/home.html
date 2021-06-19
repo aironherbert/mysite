@@ -35,7 +35,20 @@
   </head>
 
   <body>
-    <div class='main'>
+    <a href='#init'><button type="button" class="btn btn-dark" id="init-anchor">^</button></a>
+    <script>
+        $(document).scroll(function() {
+          var y = $(this).scrollTop();
+          if (y > 10) {
+            console.log(y)
+            document.getElementById("init-anchor").style.display = "inline-block";
+          } else {
+            console.log(y)
+            document.getElementById("init-anchor").style.display = "none";
+          }
+        });
+    </script>
+    <div class='main' id='init'>
       <div class='header'>
         {% include 'header.html' %}
       </div>
