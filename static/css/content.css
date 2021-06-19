@@ -18,8 +18,10 @@
 }
 
 .inicio-conteudo {
-    min-width: 300px;
+    min-width: 220px;
+    background-color: white;
     flex: 1;
+    margin-left: 20px !important;
 }
 
 .center {
@@ -41,4 +43,8 @@ li {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.exp {
+    margin-bottom: 10px;
 }

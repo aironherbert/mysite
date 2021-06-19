@@ -3,7 +3,7 @@
         <h2 class="title center">Resumo</h2>
         <div class="inicio">
             <img src="{% static 'imgs/foto.jpg' %}" class='img' alt="imagem de perfil"></img>
-            <div class="inicio-conteudo">
+            <div class="container inicio-conteudo">
                 <ul>
                     <li> Graduado em <strong>Engenharia de Controle e Automação</strong> pelo Instituto Federal de Goiás.</li>
                     <li> Mestre em <strong>Tecnologia de Processos Sustentáveis</strong>.</li>
@@ -19,16 +19,22 @@
 <hr>
 <div class="container professional" id='exps'>
     <h2 class='title center'>Experiências Profissionais</h2>
-    <div class='card exp'>
-        <h4>{{ jobs.1.title }}</h4>
-        <h5>{{ jobs.1.company }}</h5>
-        <h6><em>{{ jobs.1.date }}</em></h6>
-        <div>{{ jobs.1.description }}</div>
-    </div>
+    {% for i in jobs %}
+        <div class='card exp'>
+            <h4>{{ i.title }}</h4>
+            <h5>{{ i.company }}</h5>
+            <h6><em>{{ i.date }}</em></h6>
+            <div>{{ i.description | safe}}</div>
+        </div>
+    {% endfor %}
 </div>
 <hr>
 <div class="container" id='projects'>
     <h2 class='title center'>Projetos</h2>
+</div>
+<hr>
+<div class="container" id='skills'>
+    <h2 class='title center'>Habilidades</h2>
 </div>
 <hr>
 <div class="container" id='contact'>
