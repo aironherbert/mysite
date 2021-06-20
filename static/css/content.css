@@ -48,3 +48,8 @@ li {
 .exp {
     margin-bottom: 10px;
 }
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
