@@ -42,6 +42,7 @@ def index(request):
                 'date': 'Novembro 2012 - Março 2016',
                 'description': 'Desenvolvimento de softwares, relatórios, artigos científicos e manuais na área de energias renováveis e engenharia econômica aplicada para um projeto em parceria com a Enel.'
             },
-        ]
+        ],
+        'end1': ['2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg']
     }
     return render(request, 'home.html', context)
